@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 32px;
+  color: #666;
+  cursor: pointer;
+}
+
+button i.fa {
+  /* change the color of the icon */
+  color: #3366cc;
+}
+
+
+#text-input {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 24px;
+  width: 400px;
+}
+
+.hidden {
+  display: none;
+}
+
+#processing-msg {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#answer {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3366cc;
+}
+
+#answer-box {
+  margin-top: 20px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  display: none; /* add this line */
+}
+
+
